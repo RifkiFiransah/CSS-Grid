@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .container {
+      width: 600px;
+      border: 5px solid black;
+      box-sizing: border;
+      margin: 50px 0;
+      padding: 5px;
+    }
+
+    header {
+      background-color: pink;
+      padding: 40px 0;
+    }
+
+    .content::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    .sidebar {
+      float: left;
+      width: 40%;
+    }
+
+    .content .sidebar aside {
+      background-color: slateblue;
+      padding: 60px;
+    }
+
+    .content .sidebar nav {
+      background-color: tomato;
+      padding: 101px;
+    }
+
+    main {
+      background-color: turquoise;
+      padding: 172.5px;
+      box-sizing: border-box;
+      width: 60%;
+      float: right;
+    }
+
+    footer {
+      background-color: silver;
+      padding: 15px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>header</header>
+    <div class="content">
+      <div class="sidebar">
+        <aside>aside</aside>
+        <nav>nav</nav>
+      </div>
+      <main>main</main>
+    </div>
+    <footer>footer</footer>
+  </div>
+
+</body>
+
+</html>

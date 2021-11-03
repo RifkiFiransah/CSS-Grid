@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RF E-Commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="hero">
+        <h2 class="heading">RF E-Commerce</h2>
+        <p class="sub">Hoodie & Chinos</p>
+      </div>
+      <div class="features fitur-1">
+        <h4 class="place">IDR 150k</h4>
+        <p class="desk">Hoodie</p>
+      </div>
+      <div class="features fitur-2">
+        <h4 class="place">IDR 120k</h4>
+        <p class="desk">Chinos</p>
+      </div>
+    </header>
+    <!-- Akhir Header -->
+
+    <!-- Navigasi -->
+    <nav class="menu">
+      <div class="menu-toggle">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="brand">
+        <h1>RF E-Commerce</h1>
+      </div>
+
+      <ul class="menu-list">
+        <li><a href="">Home</a></li>
+        <li><a href="">Product</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Merch</a></li>
+      </ul>
+    </nav>
+    <!-- Akhir Navigasi -->
+
+    <!-- Services -->
+    <section class="services">
+      <div class="service">
+        <div class="icon">💻</div>
+        <h3>Web</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id recusandae eos at qui quidem eius.</p>
+      </div>
+      <div class="service">
+        <div class="icon">📚</div>
+        <h3>Study</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id recusandae eos at qui quidem eius.</p>
+      </div>
+      <div class="service">
+        <div class="icon">👨🏻‍💻</div>
+        <h3>Praktek</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id recusandae eos at qui quidem eius.</p>
+      </div>
+      <div class="service">
+        <div class="icon">👕</div>
+        <h3>Merch</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id recusandae eos at qui quidem eius.</p>
+      </div>
+    </section>
+    <!-- Akhir Services -->
+
+    <!-- Gallery -->
+    <section class="gallery">
+      <h2>My Gallery</h2>
+
+      <img src="https://source.unsplash.com/random/201x201" alt="">
+      <img src="https://source.unsplash.com/random/202x202" alt="">
+      <img src="https://source.unsplash.com/random/203x203" alt="">
+      <img src="https://source.unsplash.com/random/204x204" alt="">
+      <img src="https://source.unsplash.com/random/205x205" alt="">
+      <img src="https://source.unsplash.com/random/206x206" alt="">
+      <img src="https://source.unsplash.com/random/207x207" alt="">
+      <img src="https://source.unsplash.com/random/208x208" alt="">
+      <img src="https://source.unsplash.com/random/209x209" alt="">
+      <img src="https://source.unsplash.com/random/2010x2010" alt="">
+    </section>
+    <!-- Akhir Gallery -->
+
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle input');
+    const nav = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', function () {
+      nav.classList.toggle('slide');
+    });
+  </script>
+</body>
+
+</html>
